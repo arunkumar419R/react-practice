@@ -1,10 +1,12 @@
 import "./styles.css";
+import FnComp from "./components/FnComp";
+import ClsComp from "./components/ClsComp";
 
 export default function App() {
   return (
     <div className="App">
-      <h1>Hello my world..</h1>
-      <h2>Start editing to see some magic happen!</h2>
+      <FnComp />
+      <ClsComp />
     </div>
   );
 }
